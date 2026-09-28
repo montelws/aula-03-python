@@ -1,0 +1,9 @@
+# parametro e so um novo nome 
+def renomeia (lista):
+    lista = [9,9] # novo obejto
+    lista.append (1) # so o local
+
+v = [1,2] 
+renomeia (v)
+print (v)  # [1,2]  pois v nao foi alterado
+
